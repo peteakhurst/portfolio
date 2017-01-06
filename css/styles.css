@@ -1,0 +1,325 @@
+/**********************
+  GENERAL
+**********************/
+
+body {
+  font-family:"Open Sans", sans-serif;
+}
+
+#wrapper {
+  max-width:940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration:none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*#gallery li:hover {
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 8px 2px #000000;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+  border-bottom: 5px solid teal;
+}*/
+
+h3, h4 {
+  margin: 0 0 1em 0;
+}
+
+
+/* LINKS */
+
+ a {
+  color: #6ab47b;
+}
+
+/**********************
+  HEADER
+**********************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align:center;
+  margin: 0;
+}
+
+h1 {
+  font-family:"Roboto", sans-serif;
+  margin:15px 0;
+  font-size: 1.75em;
+  font-weight: 800;
+  line-height:0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0; 
+  font-weight: normal;
+}
+
+/**********************
+  NAVIGATION
+**********************/
+
+nav {
+  text-align:center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+ }
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  
+}
+
+/**********************
+  GALLERY
+**********************/
+
+
+
+/**********************
+  COLOURS
+**********************/
+
+
+/* GREEN HEADER*/
+
+header {
+  background: #501ea8;
+  border-color: #3c177d;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+/* SITE BODY */
+
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* NAV BG MOBILE*/
+
+nav {
+  background: #3c177d;
+}
+
+/* NAV LINK */
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #159888;
+}
+
+/**********************
+  FOOTER
+**********************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #999;
+  clear: both;  
+}
+
+i {
+  margin: 3px;
+  padding: 5px;
+  color: #159888;
+}
+
+.fa:hover {
+  -webkit-animation: rubberBand 1s;
+  animation: rubberBand 1s;
+}
+
+/**********************
+  PAGE: PORTFOLIO
+**********************/
+
+#gallery {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+
+/**********************
+  PAGE: ABOUT
+**********************/
+
+.profile-photo {
+  display: block;
+  max-width:150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+/**********************
+  PAGE: CONTACT US
+**********************/
+
+.contact-info {
+  list-style: none;
+  padding:0;
+  margin: 0;
+  font-size: 0.9em;
+  padding
+}
+
+.contact-info a {
+  display:block;
+  min-height: 20px;
+}
+
+.contact-info li.mail a {
+  display: inline-block;
+  
+}
+
+.contact-info li.twitter a {
+  display: inline-block;
+  
+}
+
+
+/**********************
+  GALLERY HOVER
+**********************/
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: teal;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+/**********************
+  WHISK AND KEY PAGE
+**********************/
+
+section {
+  width: 100%;
+}
+
+.tile {
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 
+              0 1px 10px 0 rgba(0,0,0,.12), 
+              0 2px 4px -1px rgba(0,0,0,.2);
+  clear: both;
+
+}
+
+.portfolio-copy {
+  max-width: 750px;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.tile-heading h1 {
+  margin: 0 auto;
+  padding: 10px 0;
+  color: #757575;
+}
+
+.tile-text {
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.tile-text-1 {
+}
+
+.portfolio-6-col {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  margin: auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
